@@ -7,10 +7,29 @@
     <title>Entendendo Git Status</title>
 </head>
 <body>
-    <h1>Git Status</h1>
-    <h2></h2>
     <section>
         <a href="index.html">Página Principal</a>
     </section>
+    <h1>Git Status</h1>
+
+    <h2>Informações</h2>
+    <p>Quando o comando git status é relizado, aparece o estágio atual em que o projeto se encontra.<p>
+    <p>Estágios</p>
+    <ul>
+        <li>Modified</li>
+        <li>Untracked</li>
+        <li>Deleted</li>
+    </ul>
+    <h3>Modified</h3>
+    <p>Arquivo que foi modificado em sua base.<br>Aparecerá na área de Changes</p>
+    <h3>Untracked</h3>
+    <p>Arquivo que foi criado, no entanto não foi salvo em nenhum momento.</p>
+    <h3>Deleted</h3>
+    <p>Arquivos que foram deletados<br>Aparecerá na área de Changes</p>
+
+    <h2>Observação Importante</h2>
+    <p>git add . - Serve para adicionar todas as alterações na área de Staged</p>
+    <p>git add *nome do arquivo* - Serve para adicionar uma alteração de um determinado arquivo.</p>
+
 </body>
 </html>
